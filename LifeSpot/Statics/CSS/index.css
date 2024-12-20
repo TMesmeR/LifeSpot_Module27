@@ -23,9 +23,7 @@ header {
     color:darkred;
 }
 
-footer {
-    position: absolute;
-    bottom: 0;
+footer {    
     font-size: medium;
     color: dimgrey;
     line-height: 66%;
@@ -53,6 +51,16 @@ body {
     background-color: linen;
 }
 
+.container {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+main {
+    flex: 1; 
+    padding: 1%;
+}
 .video-container,.navbar,header,footer,aside,body{
     font-family:Arial
 }
