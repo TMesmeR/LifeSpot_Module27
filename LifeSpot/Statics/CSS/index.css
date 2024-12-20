@@ -61,6 +61,24 @@ main {
     flex: 1; 
     padding: 1%;
 }
+
+.search-container {
+    margin-bottom: 1em; 
+}
+
+.search-input {
+    width: 100%; 
+    padding: 0.5em; 
+    font-size: large; 
+    border: 1px solid darkgray; 
+    border-radius: 4px; 
+    transition: border-color 0.3s; 
+}
+
+.search-input:focus {
+        border-color: aliceblue; 
+        outline: none; 
+}
 .video-container,.navbar,header,footer,aside,body{
     font-family:Arial
 }
